@@ -2,15 +2,53 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Commands
 
-A few resources to get you started if this is your first Flutter project:
+```
+$ flutter pub run flutter_launcher_icons
+$ flutter pub run flutter_native_splash:create
+$ flutter packages pub run build_runner clean
+$ flutter packages pub run build_runner build --delete-conflicting-outputs
+$ flutter packages pub run build_runner watch
+$ firebase emulators:start
+$ firebase deploy --only functions
+$ flutter build web --dart-define env=[dev|prd] --release 
+$ firebase deploy --only hosting
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Front-end
+
+- [ ] Launcher Icon
+- [ ] Splash Screen (Rive)
+- [ ] Device Preview
+- [ ] Custom Theme (Font / Colors)
+- [ ] Increment/Decrement
+- [ ] Firebase Storage / SVG
+- [ ] State Management (Hooked BLoC / DI)
+- [ ] Multiple Environments
+- [ ] Firebase Configuration
+- [ ] Firebase Authentication
+- [ ] Firebase App Check
+- [ ] API Integration
+
+### Back-end
+
+- [ ] Firebase Functions (RESTful API)
+- [ ] Firebase App Check (API Authorization)
+- [ ] Firebase Firestore (Create/Retrieve/Update Number)
+
+
+### Additions
+
+- Semantic Versioning (API / APP)
+- Continuous Delivery (GitHub Actions)
+- Analytics / Crash Tracking
+- AB test
+- White-label
+- Micro front-end
+- End-to-end test
+- Unit test
+- Offline app

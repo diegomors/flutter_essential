@@ -21,7 +21,7 @@ $ firebase deploy --only hosting
 
 ### Front-end
 
-- [ ] Launcher Icon
+- [x] Launcher Icon
 - [ ] Splash Screen (Rive)
 - [ ] Device Preview
 - [ ] Custom Theme (Font / Colors)

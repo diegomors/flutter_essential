@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.16
+  rive: ^0.10.1
 
 dev_dependencies:
   flutter_test:
@@ -36,9 +38,13 @@ flutter_icons:
     generate: true
     image_path: "assets/images/launcher.png"
 
+flutter_native_splash:
+  color: "#88DCF4"
+
 flutter:
   uses-material-design: true
 
   assets:
     - assets/
     - assets/images/
+    - assets/animations/

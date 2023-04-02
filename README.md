@@ -22,7 +22,7 @@ $ firebase deploy --only hosting
 ### Front-end
 
 - [x] Launcher Icon
-- [ ] Splash Screen (Rive)
+- [x] Splash Screen (Rive)
 - [ ] Device Preview
 - [ ] Custom Theme (Font / Colors)
 - [ ] Increment/Decrement
